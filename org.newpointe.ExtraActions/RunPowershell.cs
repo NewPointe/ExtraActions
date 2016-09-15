@@ -36,7 +36,7 @@ namespace org.newpointe.ExtraActions
     [Export( typeof( ActionComponent ) )]
     [ExportMetadata( "ComponentName", "Run Powershell" )]
 
-    [CodeEditorField( "Powershell", "The powershell code. <span class='tip tip-lava'></span>", CodeEditorMode.Powershell, CodeEditorTheme.Rock, 100, true, "echo \"Hello World\"", "", 0 )]
+    [CodeEditorField( "Powershell", "The powershell code. <span class='tip tip-lava'></span>", CodeEditorMode.Powershell, CodeEditorTheme.Rock, 100, true, "Write-Host \"Hello World\"", "", 0 )]
     [CodeEditorField( "Output Lava", "The output format. <span class='tip tip-lava'></span>", CodeEditorMode.Lava, CodeEditorTheme.Rock, 100, false, @"Output:
 {{ PSOutput | Join:'\n' }}
 
