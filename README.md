@@ -5,6 +5,7 @@ A collection of helpful Workflow Actions for Rock RMS.
 
 ## Included Actions:
 - [Run Powershell](#run-powershell)
+- [Redirect to Page](#redirect-to-page)
 
 ## Run Powershell
 The *Run Powershell* action lets you run a powershell script on the server, format the result, and store it in an attribute. You can use it to do almost anything - do more advanced math, get the last time the server was restarted, look through and change server folders and files, remotely add a new account in Office 365. Your only limit is your imagination!
@@ -74,3 +75,15 @@ Remove-PSSession $Session
 tmp_jo5hefjt.y0t
 John Smith
 ```
+
+
+## Redirect to Page
+The *Redirect to Page* action will redirect the user to the given URL (If the workflow is being run in the background it does nothing).   
+
+Also lets you set how the workflow should continue:  
+**`Always Continue`** - The action will complete and the workflow will continue processing even if it was ran in the background.  
+**`Only continue on redirect`** - The action will not complete and the workflow will not continue processing until it can redirect someone.  
+**`Never continue`** - The action will never complete and the workflow will not continue processing untill a filter is used to skip it.  
+
+![Screenshot](https://newpointe.blob.core.windows.net/newpointe-webassets/upload/87c0ce510fd8453e93113abb101b6b95_RedirectToUrl.png)
+

@@ -30,7 +30,10 @@ using Rock.Web.UI.Controls;
 using Rock.Workflow;
 
 namespace org.newpointe.ExtraActions
-{ 
+{
+    /// <summary>
+    /// Runs Powershell commands.
+    /// </summary>
     [ActionCategory( "Extra Actions" )]
     [Description( "Runs Powershell commands." )]
     [Export( typeof( ActionComponent ) )]
