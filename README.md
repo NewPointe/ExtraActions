@@ -6,6 +6,7 @@ A collection of helpful Workflow Actions for Rock RMS.
 ## Included Actions:
 - [Run Powershell](#run-powershell)
 - [Redirect to Page](#redirect-to-page)
+- [Show HTML](#show-html)
 
 ## Run Powershell
 The *Run Powershell* action lets you run a powershell script on the server, format the result, and store it in an attribute. You can use it to do almost anything - do more advanced math, get the last time the server was restarted, look through and change server folders and files, remotely add a new account in Office 365. Your only limit is your imagination!
@@ -86,4 +87,12 @@ Also lets you set how the workflow should continue:
 **`Never continue`** - The action will never complete and the workflow will not continue processing untill a filter is used to skip it.  
 
 ![Screenshot](https://newpointe.blob.core.windows.net/newpointe-webassets/upload/87c0ce510fd8453e93113abb101b6b95_RedirectToUrl.png)
+
+
+## Show HTML
+The *Workflow Entry Show HTML* action will show the given HTML in the WorkflowEntry block (If the workflow is being run in the background it does nothing).   
+
+Also lets you set if you want to hide the built-in status message.  
+
+![Screenshot](https://newpointe.blob.core.windows.net/newpointe-webassets/upload/d3e05367ae434fb8b13a5c97bac7ad74_ShowHtml.png)
 

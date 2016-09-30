@@ -107,6 +107,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShowHtml.cs" />
     <Compile Include="Redirect.cs" />
     <Compile Include="RunPowershell.cs" />
   </ItemGroup>
