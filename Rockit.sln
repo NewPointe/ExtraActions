@@ -26,6 +26,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RockWeb(1)", "http://localh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.newpointe.ExtraActions", "org.newpointe.ExtraActions\org.newpointe.ExtraActions.csproj", "{48035437-0AD8-4428-8DF9-9401AD96178A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.newpointe.ExtraActions.RunPowershell", "org.newpointe.ExtraActions.RunPowershell\org.newpointe.ExtraActions.RunPowershell.csproj", "{1837C99F-453E-408D-8BA6-F6DE695CEB53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{48035437-0AD8-4428-8DF9-9401AD96178A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48035437-0AD8-4428-8DF9-9401AD96178A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48035437-0AD8-4428-8DF9-9401AD96178A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1837C99F-453E-408D-8BA6-F6DE695CEB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1837C99F-453E-408D-8BA6-F6DE695CEB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1837C99F-453E-408D-8BA6-F6DE695CEB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1837C99F-453E-408D-8BA6-F6DE695CEB53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
