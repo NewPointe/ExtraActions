@@ -68,7 +68,7 @@ namespace org.newpointe.ExtraActions
 
             if (groupMemberStatus == null)
             {
-                var groupMemberAttribute = GetAttributeValue(action, "MemberStatus");
+                var groupMemberAttribute = GetAttributeValue(action, "GroupMemberStatus");
                 if (!string.IsNullOrWhiteSpace(groupMemberAttribute))
                 {
                     if (Enum.TryParse(groupMemberAttribute, true, out GroupMemberStatus groupMemberStatusOut))
